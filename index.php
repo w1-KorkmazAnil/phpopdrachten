@@ -11,12 +11,12 @@
 
 <html>
     <head>
-        <link href="css/style.css" type="text/css" rel="stylesheet">
+        <link href="Hoofdstuk%202/css/style.css" type="text/css" rel="stylesheet">
         <meta charset="UTF-8">
         <meta name="keywords" content="keyword 1, keyword 2">
         <meta name="description" content="opdracht x">
         <title>
-            Opdracht X
+            Template
         </title>
     </head>
     <body>
@@ -29,10 +29,10 @@
                 <li>Hoofdstuk 2
                     <ul>
                         <li>
-                            <a href="">Opdracht 2.1</a>
+                            <a href="Hoofdstuk%202/Opdracht 2.1/opdracht2.1.php">Opdracht 2.1</a>
                         </li>
                         <li>
-                            <a href="opdracht2.1.php">Opdracht 2.2</a>
+                            <a href="Hoofdstuk%202">Opdracht 2.2</a>
                         </li>
                     </ul>
                 </li>
@@ -41,13 +41,13 @@
                 <li>Hoofdstuk 3
                     <ul>
                         <li>
-                            <a href="hoofdstuk3/opdracht_3-1.php">Opdracht 3.1</a>
+                            <a href="Hoofdstuk%203">Opdracht 3.1</a>
                         </li>
                         <li>
-                            <a href="hoofdstuk3/opdracht_3-2.php">Opdracht 3.2</a>
+                            <a href="Hoofdstuk%203">Opdracht 3.2</a>
                         </li>
                         <li>
-                            <a href="hoofdstuk3/opdracht_3-3.php">Opdracht 3.3</a>
+                            <a href="Hoofdstuk%203">Opdracht 3.3</a>
                         </li>
                     </ul>
                 </li>
@@ -56,13 +56,13 @@
                 <li>Hoofdstuk 4
                     <ul>
                         <li>
-                            <a href="hoofdstuk4/opdracht_4-1.php">Opdracht 4.1</a>
+                            <a href="Hoofdstuk%204">Opdracht 4.1</a>
                         </li>
                         <li>
-                            <a href="hoofdstuk4/opdracht_4-2.php">Opdracht 4.2</a>
+                            <a href="Hoofdstuk%204">Opdracht 4.2</a>
                         </li>
                         <li>
-                            <a href="hoofdstuk4/opdracht_4-3.php">Opdracht 4.3</a>
+                            <a href="Hoofdstuk%204">Opdracht 4.3</a>
                         </li>
                         <li>
                             <a href="hoofdstuk4/opdracht_4-4.php">Opdracht 4.4</a>

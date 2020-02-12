@@ -11,18 +11,17 @@
 
 <html>
     <head>
-        <link href="css/style.css" type="text/css" rel="stylesheet">
+        <link href="../css/style.css" type="text/css" rel="stylesheet">
         <meta charset="UTF-8">
         <meta name="keywords" content="keyword 1, keyword 2">
         <meta name="description" content="opdracht x">
         <title>
-            Opdracht X
+            Opdracht 2.1
         </title>
     </head>
     <body>
         <header>
             <h1><?php echo "Uitwerking van PHP-opdrachten"; ?></h1>
-            <p><?php echo "Hello World"; ?></p>
         </header>
         <aside>
             <h2>Menu</h2>
@@ -30,7 +29,7 @@
                 <li>Hoofdstuk 2
                     <ul>
                         <li>
-                            <a href="Hoofdstuk2/opdracht2.1.php">Opdracht 2.1</a>
+                            <a href="opdracht2.1.php">Opdracht 2.1</a>
                         </li>
                         <li>
                             <a href="hoofdstuk2/opdracht_2-2.php">Opdracht 2.2</a>
@@ -90,6 +89,7 @@
         </aside>
         <main id="wrapper">
             <h2>Uitwerkingen</h2>
+            <p><?php echo "Hello World!"; ?></p>
         </main>
     </body>
 </html>
