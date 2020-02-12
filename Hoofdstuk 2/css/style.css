@@ -1,0 +1,49 @@
+body
+{
+    background-color: black;
+}
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+aside
+{
+    background-color: red;
+    width: 400px;
+    height: 500px;
+    margin-left: 48vh;
+}
+ul
+{
+    list-style-type: none;
+}
+#wrapper, aside
+{
+    float: left;
+    padding: 5px;
+    border: 1px solid black;
+}
+#wrapper
+{
+    background-color: white;
+    width: 400px;
+    height: 500px;
+}
+header
+{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+h2
+{
+    text-align: center;
+}
+li a
+{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 20px;
+}
