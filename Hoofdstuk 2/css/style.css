@@ -48,8 +48,12 @@ li a
 }
 main p
 {
-    position: absolute;
-    top: 40%;
-    left: 64%;
-    transform: translate(-50%,-50%);
+    background-color: gainsboro;
+    margin: 10px;
+    padding: 10px;
+}
+h1 a
+{
+    color: white;
+    text-decoration: none;
 }

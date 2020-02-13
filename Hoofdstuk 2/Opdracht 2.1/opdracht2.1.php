@@ -21,7 +21,7 @@
     </head>
     <body>
         <header>
-            <h1><?php echo "Uitwerking van PHP-opdrachten"; ?></h1>
+            <h1><a href="../../index.php"><?php echo "Uitwerking van PHP-opdrachten"; ?></a></h1>
         </header>
         <aside>
             <h2>Menu</h2>
@@ -32,7 +32,7 @@
                             <a href="opdracht2.1.php">Opdracht 2.1</a>
                         </li>
                         <li>
-                            <a href="hoofdstuk2/opdracht_2-2.php">Opdracht 2.2</a>
+                            <a href="../Opdracht 2.2/opdracht2.2.php">Opdracht 2.2</a>
                         </li>
                     </ul>
                 </li>
