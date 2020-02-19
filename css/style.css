@@ -49,11 +49,14 @@ li a
 main p
 {
     background-color: gainsboro;
-    margin: 10px;
-    padding: 10px;
 }
 h1 a
 {
     color: white;
     text-decoration: none;
+}
+ul
+{
+    text-align: center;
+    margin-top: 10px;
 }
