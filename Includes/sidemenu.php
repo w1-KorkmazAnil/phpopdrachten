@@ -37,7 +37,7 @@ $base_url = "http://localhost/phpopdrachten/";
         <li>Hoofdstuk 4
             <ul>
                 <li>
-                    <a href="Hoofdstuk 4">Opdracht 4.1</a>
+                    <a href="<?php echo $base_url;?>Hoofdstuk 4/Opdracht 4.1/Opdracht41.php">Opdracht 4.1</a>
                 </li>
                 <li>
                     <a href="Hoofdstuk 4">Opdracht 4.2</a>

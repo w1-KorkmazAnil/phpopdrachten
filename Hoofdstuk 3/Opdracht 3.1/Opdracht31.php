@@ -1,7 +1,7 @@
 <?php
 include '../../Includes/header.php';
 include '../../Includes/sidemenu.php';
-
+include '../../Includes/footer.php';
 /**
  * User: Anil Korkmaz
  * Date: 2-3-2020
