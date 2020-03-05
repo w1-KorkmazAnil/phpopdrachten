@@ -1,12 +1,3 @@
-<?php
-/**
- * User: Anil Korkmaz
- * Date: 5-2-2020
- * Time: 13:40
- * File: index.php
- */
-?>
-
 <!DOCTYPE html>
 
 <html>

@@ -17,7 +17,7 @@ include '../../Includes/sidemenu.php';
     $driveOn = false;
 
     $countryName = "Nederland";
-    $currentAge = 16;
+    $currentAge = 2;
 ?>
 
         <main id="wrapper">
@@ -64,5 +64,8 @@ include '../../Includes/sidemenu.php';
                 }
             ?>
         </main>
+            <?php
+            include '../../Includes/footer.php';
+            ?>
     </body>
 </html>

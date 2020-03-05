@@ -25,10 +25,10 @@ $base_url = "http://localhost/phpopdrachten/";
                     <a href="<?php echo $base_url;?>Hoofdstuk 3/Opdracht 3.1/Opdracht31.php">Opdracht 3.1</a>
                 </li>
                 <li>
-                    <a href="<?php echo $base_url;?>Hoofdstuk 3">Opdracht 3.2</a>
+                    <a href="<?php echo $base_url;?>Hoofdstuk 3/Opdracht 3.2/Opdracht32.php">Opdracht 3.2</a>
                 </li>
                 <li>
-                    <a href="<?php echo $base_url;?>Hoofdstuk 3">Opdracht 3.3</a>
+                    <a href="<?php echo $base_url;?>Hoofdstuk 3/Opdracht 3.3/Opdracht33.php">Opdracht 3.3</a>
                 </li>
             </ul>
         </li>
