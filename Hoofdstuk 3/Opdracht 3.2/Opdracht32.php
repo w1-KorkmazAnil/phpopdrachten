@@ -17,8 +17,8 @@ include '../../Includes/footer.php';
     $ambulanceComing = false;
     $driveOn = false;
 
-    $countryName = "Nederland";
-    $currentAge = 2;
+    $countryName = "Cyprus";
+    $currentAge = 17;
 ?>
 
         <main id="wrapper">
@@ -45,13 +45,13 @@ include '../../Includes/footer.php';
             ?>
             <?php
                 // Maken van een if/else statemant
-                if ($countryName == "Zweden" && $countryName == "Bulgarije" && $countryName == "Nederland" && $currentAge < 18
-                    || $countryName == "België" && $currentAge <= 16 || $countryName == "Cyprus" && $currentAge <= 17)
+                if ($countryName == "Zweden" && $currentAge < 18 || $countryName == "Nederland" && $currentAge < 18
+                    || $countryName == "België" && $currentAge <= 16 || $countryName == "Cyprus" && $currentAge < 17 || $countryName == "Bulgarije" && $currentAge < 18)
                 {
                     echo "U mag niets drinken";
                 }
-                elseif ($countryName == "België" && $countryName == "Bulgarije" && $countryName == "Nederland" && $currentAge >= 18
-                    || $countryName == "Cyprus" && $currentAge > 17)
+                elseif ($countryName == "België" && $currentAge >= 18 || $countryName == "Bulgarije" && $currentAge >= 18 || $countryName == "Nederland" && $currentAge >= 18
+                    || $countryName == "Cyprus" && $currentAge >= 17)
                 {
                     echo "U mag alle dranken drinken";
                 }
