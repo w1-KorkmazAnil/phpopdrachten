@@ -32,16 +32,25 @@ for ($tel = 1; $tel <= 10; $tel++)
 }
 
 $task6 = "";
-$year = 2019;
-$age = 22;
-$LT = "In 2020 word ik 23 jaar oud.";
+$year = 2021;
+$age = 24;
+//$LT = "In 2020 word ik 23 jaar oud.";
 
-while ($year >= 1997 && $age >= 0)
+while ($year >= 1998 && $age >= 0)
 {
-    $task6 .= "<p>" . "In " . $year . " was ik " . $age . " jaar oud" . "<br>" . "</p>";
     $year--;
     $age--;
+    if ($year == 2020 && $age == 23) {
+        $task6 .= "<p>" . "In " . $year . " word ik " . $age . " jaar oud" . "<br>" . "</p>";
+    } else if ($year == 1997 && $age == 0){
+        $task6 .= "<p>" . "In " . $year . " ben ik geboren" . "<br>" . "</p>";
+    }
+    else
+    {
+        $task6 .= "<p>" . "In " . $year . " was ik " . $age . " jaar oud" . "<br>" . "</p>";
+    }
 }
+
 
 // Taak 6 en 7 snap ik niet hoe ik die tekst moet veranderen of een tekst moet bijvoegen.
 // Taak 6 heb ik anders (niet de juiste manier) opgelost.

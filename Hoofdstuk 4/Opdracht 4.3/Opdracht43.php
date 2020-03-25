@@ -11,7 +11,7 @@ include '../../Includes/script43.php';
                     //echo "<p>" . $task3 . "</p>";
                     //echo $task4;
                     //echo $task5;
-                    echo "<p>" . $LT . "</p>" . $task6;
+                    echo $task6;
                 ?>
         </main>
     </body>

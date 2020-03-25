@@ -10,13 +10,11 @@ include '../../Includes/script43.php';
                     Kalender van volgende week:
                 </h3>
                 <?php
-                //date_default_timezone_get("Europe/Amsterdam");
-
                 for ($Counter = 0; $Counter <= 7; $Counter++)
                     {
                         $add = strtotime("now +" . $Counter . "days");
                         $day = date('w', $add);
-                        $date = date('l d-n-Y', $Counter);
+                        $date = date('l d-n-Y', $add);
                         echo "<p>" . "Dag " . $day . " is " . $date . "<br>" . "</p>";
                     }
                 ?>
