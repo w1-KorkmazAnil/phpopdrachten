@@ -7,10 +7,10 @@ include '../../Includes/script43.php';
         <main id="wrapper">
             <h2>Uitwerkingen</h2>
                 <?php
-                    //echo "<p>" . $task2 . "</p>";
-                    //echo "<p>" . $task3 . "</p>";
-                    //echo $task4;
-                    //echo $task5;
+                    echo "<p>" . $task2 . "</p>";
+                    echo "<p>" . $task3 . "</p>";
+                    echo $task4;
+                    echo $task5;
                     echo $task6;
                 ?>
         </main>

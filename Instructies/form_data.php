@@ -1,7 +1,5 @@
 <?php
-print_r($_GET);
-
-echo $_GET["firstname"];
+$subject = $_POST["subject"];
 ?>
 
 

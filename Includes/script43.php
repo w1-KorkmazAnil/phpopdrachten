@@ -34,7 +34,6 @@ for ($tel = 1; $tel <= 10; $tel++)
 $task6 = "";
 $year = 2021;
 $age = 24;
-//$LT = "In 2020 word ik 23 jaar oud.";
 
 while ($year >= 1998 && $age >= 0)
 {
