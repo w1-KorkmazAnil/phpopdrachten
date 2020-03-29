@@ -51,5 +51,3 @@ while ($year >= 1998 && $age >= 0)
 }
 
 
-// Taak 6 en 7 snap ik niet hoe ik die tekst moet veranderen of een tekst moet bijvoegen.
-// Taak 6 heb ik anders (niet de juiste manier) opgelost.

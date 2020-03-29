@@ -43,17 +43,17 @@ $base_url = "http://localhost/phpopdrachten/";
                     <a href="<?php echo $base_url;?>Hoofdstuk 4/Opdracht 4.2/Opdracht42.php">Opdracht 4.2</a>
                 </li>
                 <li>
-                    <a href="Hoofdstuk 4">Opdracht 4.3</a>
+                    <a href="<?php echo $base_url;?>Hoofdstuk 4/Opdracht 4.3/Opdracht43.php">Opdracht 4.3</a>
                 </li>
                 <li>
-                    <a href="hoofdstuk4/opdracht_4-4.php">Opdracht 4.4</a>
+                    <a href="<?php echo $base_url;?>Hoofdstuk 4/Opdracht 4.4/Opdracht44.php">Opdracht 4.4</a>
                 </li>
             </ul>
         </li>
         <li>Hoofdstuk 5
             <ul>
                 <li>
-                    <a href="hoofdstuk5/opdracht_5-1.php">Opdracht 5.1</a>
+                    <a href="<?php echo $base_url;?>Hoofdstuk 5/Opdracht 5.1/Opdracht51.php">Opdracht 5.1</a>
                 </li>
                 <li>
                     <a href="hoofdstuk5/opdracht_5-2.php">Opdracht 5.2</a>
