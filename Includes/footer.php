@@ -26,4 +26,17 @@
        include 'variabelen.php';
         echo " bezoeker, " . "&copy " . $name . $year;
     ?>
+
+    <?php
+    session_start();
+    if (isset($_SESSION['username'])) {
+        $bezoeker = $_SESSION['username']. "&nbsp;<a
+    href='/phpopdrachten/hoofdstuk6/loguit.php'>Loguit</a>";
+    }
+    else {
+        $bezoeker = "onbekende bezoeker". "&nbsp;<a
+    href='/../phpopdrachten/Hoofdstuk%206/Opdracht%206.1/Opdracht61.php'>Login</a>";
+    }
+    echo $bezoeker;
+    ?>
 </footer>
